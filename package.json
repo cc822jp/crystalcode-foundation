@@ -1,0 +1,40 @@
+{
+  "name": "crystalcode-foundation",
+  "version": "1.0.0",
+  "description": "Development template for CrystalCode products.",
+  "keywords" : ["(none)"],
+  "bugs": {
+    "url": "https://github.com/cc822jp/crystalcode-foundation/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "CrystalCode",
+    "email": "sasaki@crystalcode.jp",
+    "url": "http://www.cyberagent.co.jp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cc822jp/crystalcode-foundation.git"
+  },
+  "scripts": {
+    "test": "(none)"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "0.1.7",
+    "grunt-exec": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-sass": "^0.14.0",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-compass": "~1.0.0"
+  },
+  "devDependencies": {
+    "grunt-image": "^0.7.3",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "^0.10.0"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  }
+}

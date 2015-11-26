@@ -1,0 +1,21 @@
+{
+    // css
+    "css_common": {
+        "src": [
+            "<%= paths.css_src %>/libs/reset.css",
+            "<%= paths.css_src %>/libs/helper.css",
+            "<%= paths.css_dev %>/sample.css"
+        ],
+        "dest": "<%= paths.css_dev %>/sample.css",
+        "nonull": true
+    },
+    // js
+    "js_common": {
+        "src": [
+            "<%= paths.js_src %>/libs/jquery-1.11.3.min.js",
+            "<%= paths.js_src %>/sample.js"
+        ],
+        "dest": "<%= paths.js_dev %>/sample.js",
+        "nonull": true
+    }
+}

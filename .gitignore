@@ -1,0 +1,10 @@
+# For npm
+node_modules
+npm-debug.log
+
+# For Mac
+.DS_Store
+
+# For IntelliJ Idea
+*.iml
+.idea
